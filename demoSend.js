@@ -25,43 +25,43 @@ async function runDemo() {
   try {
     // Demo 1: Send Organization Admin invitation
     console.log('--- Demo 1: Organization Admin Invitation ---');
-    await sendInvitationEmail('org_admin', 'samget2010@gmail.com', {
-      accept_link: 'https://yuba.com/invite/org-admin-abc123'
+    await sendInvitationEmail('org_admin', 'isidore.iradukunda28@gmail.com', {
+      accept_link: 'https://yubanow.com/invite/org-admin-abc123'
     });
     console.log('');
 
     // Demo 2: Send Individual Member invitation
     console.log('--- Demo 2: Individual Member Invitation ---');
-    await sendInvitationEmail('individual_member', 'samget2010@gmail.com', {
+    await sendInvitationEmail('individual_member', 'isidore.iradukunda28@gmail.com', {
       organization_name: 'Acme Corporation',
       credit_amount: 100,
-      accept_link: 'https://yuba.com/invite/member-xyz789'
+      accept_link: 'https://yubanow.com/invite/member-xyz789'
     });
     console.log('');
 
     // Demo 3: Send Team Admin invitation
     console.log('--- Demo 3: Team Admin Invitation ---');
-    await sendInvitationEmail('team_admin', 'samget2010@gmail.com', {
+    await sendInvitationEmail('team_admin', 'isidore.iradukunda28@gmail.com', {
       organization_name: 'Tech Innovators Inc',
       credit_amount: 500,
-      accept_link: 'https://yuba.com/invite/team-admin-def456'
+      accept_link: 'https://yubanow.com/invite/team-admin-def456'
     });
     console.log('');
 
     // Demo 4: Send Teammate (from Organization) invitation
     console.log('--- Demo 4: Teammate from Organization Invitation ---');
-    await sendInvitationEmail('teammate_from_org', 'samget2010@gmail.com', {
+    await sendInvitationEmail('teammate_from_org', 'isidore.iradukunda28@gmail.com', {
       team_name: 'Engineering Team',
       team_admin_name: 'John Smith',
-      accept_link: 'https://yuba.com/invite/teammate-ghi789'
+      accept_link: 'https://yubanow.com/invite/teammate-ghi789'
     });
     console.log('');
 
     // Demo 5: Send Teammate (No Organization) invitation
     console.log('--- Demo 5: Teammate (No Organization) Invitation ---');
-    await sendInvitationEmail('teammate_no_org', 'samget2010@gmail.com', {
-      team_name: 'Freelance Designers',
-      accept_link: 'https://yuba.com/invite/teammate-jkl012'
+    await sendInvitationEmail('teammate_no_org', 'isidore.iradukunda28@gmail.com', {
+      team_name: 'Freeglance',
+      accept_link: 'https://yubanow.com/invite/teammate-jkl012'
     });
     console.log('');
 
