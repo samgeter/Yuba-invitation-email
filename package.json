@@ -1,0 +1,22 @@
+{
+  "name": "yuba-invitation-mailer",
+  "version": "1.0.0",
+  "description": "Node.js email system for sending Yuba invitation emails via Gmail",
+  "main": "demoSend.js",
+  "scripts": {
+    "start": "node demoSend.js",
+    "test": "node demoSend.js"
+  },
+  "keywords": [
+    "email",
+    "nodemailer",
+    "gmail",
+    "invitations"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.7"
+  }
+}
