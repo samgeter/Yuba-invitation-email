@@ -46,7 +46,7 @@ async function runDemo() {
       credit_amount: 500,
       accept_link: 'https://yubanow.com/invite/team-admin-def456'
     });
-    console.log('');
+    console.log('');  
 
     // Demo 4: Send Teammate (from Organization) invitation
     console.log('--- Demo 4: Teammate from Organization Invitation ---');
